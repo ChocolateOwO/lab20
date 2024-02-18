@@ -102,7 +102,7 @@ int main(){
     importDataFromFile(filename, names, scores, grades);
     
     do{
-        string command, key;
+        string command, key;  
         getCommand(command,key);
         command = toUpperStr(command);
         key = toUpperStr(key);
